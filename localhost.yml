@@ -4,23 +4,16 @@
   sudo: no
   vars:
     homebrew_cask_packages_packages:
-    - calibre
     - firefox
     - google-chrome
-    - google-japanese-ime
-    - grandperspective
-    - hipchat
     - iterm2
     - java
-    - keepassx
     - mysqlworkbench
     - skype
     - spark
     - vagrant
     - virtualbox
     - xquartz
-    - webstorm
-    - zeroxed
   roles:
   - role: hnakamur.homebrew_packages
     tags: homebrew_packages
