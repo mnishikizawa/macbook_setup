@@ -4,50 +4,34 @@
   sudo: no
   vars:
     homebrew_cask_packages_packages:
+    - calibre
     - firefox
     - google-chrome
+    - google-japanese-ime
+    - grandperspective
     - iterm2
-    - java
-    - mysqlworkbench
-    - skype
-    - spark
     - vagrant
     - virtualbox
     - xquartz
+    - webstorm
+    homebrew_packages:
+    - tmux
+    - zsh
+    - peco
+    - antigen
+    - fish
+    - gawk
+    - ghq
+    - go
+    - python
+    - py
+    - z
+    - tree
+    - hub
+    - nodebrew
+
   roles:
   - role: hnakamur.homebrew_packages
     tags: homebrew_packages
-  - role: hnakamur.osx_defaults
-    tags: osx_defaults
-  - role: hnakamur.git
-    tags: git
-  - role: hnakamur.zsh
-    tags: zsh
-  - role: hnakamur.direnv
-    tags: direnv
-  - role: hnakamur.go
-    tags: go
-  - role: hnakamur.vim
-    tags: vim
-  - role: hnakamur.tmux
-    tags: tmux
-  - role: hnakamur.ruby
-    tags: ruby
-  - role: hnakamur.node
-    tags: node
   - role: hnakamur.homebrew_cask_packages
     tags: homebrew_cask_packages
-  - role: hnakamur.osx_vlgothic_fonts
-    tags: osx_vlgothic_fonts
-  - role: hnakamur.osx_noto_sans_fonts
-    tags: osx_noto_sans_fonts
-    osx_noto_sans_fonts_zip_filename: NotoSans-unhinted.zip
-    osx_noto_sans_fonts_creates_font_filename: NotoSans-Regular.ttf
-  - role: hnakamur.osx_noto_sans_fonts
-    tags: osx_noto_sans_fonts
-    osx_noto_sans_fonts_zip_filename: NotoSerif-unhinted.zip
-    osx_noto_sans_fonts_creates_font_filename: NotoSerif-Regular.ttf
-  - role: hnakamur.osx_noto_sans_fonts
-    tags: osx_noto_sans_fonts
-    osx_noto_sans_fonts_zip_filename: NotoSansJapanese-hinted.zip
-    osx_noto_sans_fonts_creates_font_filename: NotoSansJP-Regular.otf

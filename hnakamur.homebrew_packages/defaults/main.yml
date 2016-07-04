@@ -4,22 +4,35 @@ homebrew_packages_taps:
 - homebrew/dupes
 
 homebrew_packages_packages:
+- { name: antigen }
 - { name: cmake }
 - { name: ctags }
 - { name: docker }
+- { name: fish }
+- { name: gawk }
+- { name: ghq }
+- { name: go }
 - { name: htop }
+- { name: hub }
 - { name: jq }
 - { name: hub }
 - { name: imagemagick }
 - { name: mysql }
+- { name: nodebrew }
 - { name: packer }
+- { name: peco }
 - { name: pkg-config }
 - { name: postgresql }
+- { name: python }
+- { name: pv }
 - { name: pwgen }
 - { name: redis }
+- { name: rbenv }
 - { name: subversion }
 - { name: the_silver_searcher }
 - { name: tig }
+- { name: tree }
 - { name: whois }
 - { name: xz }
 - { name: wget }
+- { name: z }
