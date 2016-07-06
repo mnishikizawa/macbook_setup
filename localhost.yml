@@ -29,6 +29,8 @@
     - tree
     - hub
     - nodebrew
+    - wireshark
+    - terminal-notifier
 
   roles:
   - role: hnakamur.homebrew_packages
