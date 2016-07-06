@@ -31,6 +31,7 @@
     - nodebrew
     - wireshark
     - terminal-notifier
+    - ccat
 
   roles:
   - role: hnakamur.homebrew_packages

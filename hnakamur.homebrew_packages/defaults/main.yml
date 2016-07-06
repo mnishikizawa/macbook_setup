@@ -5,6 +5,7 @@ homebrew_packages_taps:
 
 homebrew_packages_packages:
 - { name: antigen }
+- { name: ccat }
 - { name: cmake }
 - { name: ctags }
 - { name: docker }
