@@ -23,6 +23,7 @@
     - gawk
     - ghq
     - go
+    - glide
     - python
     - py
     - z
@@ -32,6 +33,8 @@
     - wireshark
     - terminal-notifier
     - ccat
+    - assh
+    - toilet
 
   roles:
   - role: hnakamur.homebrew_packages

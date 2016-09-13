@@ -5,6 +5,7 @@ homebrew_packages_taps:
 
 homebrew_packages_packages:
 - { name: antigen }
+- { name: assh }
 - { name: ccat }
 - { name: cmake }
 - { name: ctags }
@@ -13,6 +14,7 @@ homebrew_packages_packages:
 - { name: gawk }
 - { name: ghq }
 - { name: go }
+- { name: glide }
 - { name: htop }
 - { name: hub }
 - { name: jq }
@@ -33,6 +35,7 @@ homebrew_packages_packages:
 - { name: terminal-notifier }
 - { name: the_silver_searcher }
 - { name: tig }
+- { name: toilet }
 - { name: tree }
 - { name: whois }
 - { name: xz }
