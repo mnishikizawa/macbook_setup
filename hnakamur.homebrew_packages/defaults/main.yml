@@ -21,6 +21,7 @@ homebrew_packages_packages:
 - { name: hub }
 - { name: imagemagick }
 - { name: mysql }
+- { name: argon/mas/mas }
 - { name: nodebrew }
 - { name: packer }
 - { name: peco }

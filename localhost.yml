@@ -35,6 +35,7 @@
     - ccat
     - assh
     - toilet
+    - argon/mas/mas
 
   roles:
   - role: hnakamur.homebrew_packages
