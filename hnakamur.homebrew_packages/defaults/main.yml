@@ -2,6 +2,7 @@
 homebrew_packages_taps:
 - homebrew/binary
 - homebrew/dupes
+- mackerelio/mackerel-agent
 
 homebrew_packages_packages:
 - { name: antigen }
@@ -42,3 +43,4 @@ homebrew_packages_packages:
 - { name: wireshark }
 - { name: wget }
 - { name: z }
+- { name: mkr }
