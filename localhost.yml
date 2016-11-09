@@ -36,6 +36,9 @@
     - assh
     - toilet
     - argon/mas/mas
+    - pyenv-virtualenv
+    - direnv
+    - rdesktop
 
   roles:
   - role: hnakamur.homebrew_packages
