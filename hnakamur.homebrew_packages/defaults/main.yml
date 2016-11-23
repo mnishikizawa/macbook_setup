@@ -49,3 +49,4 @@ homebrew_packages_packages:
 - { name: tmux }
 - { name: terraform }
 - { name: rbenv }
+- { name: assh }
