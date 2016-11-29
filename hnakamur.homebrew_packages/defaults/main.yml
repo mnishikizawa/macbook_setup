@@ -3,6 +3,7 @@ homebrew_packages_taps:
 - homebrew/binary
 - homebrew/dupes
 - mackerelio/mackerel-agent
+- simeji/jid
 
 homebrew_packages_packages:
 - { name: antigen }
@@ -50,3 +51,4 @@ homebrew_packages_packages:
 - { name: terraform }
 - { name: rbenv }
 - { name: assh }
+- { name: jid }
