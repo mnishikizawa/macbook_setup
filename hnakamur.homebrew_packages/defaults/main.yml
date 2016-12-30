@@ -53,3 +53,4 @@ homebrew_packages_packages:
 - { name: assh }
 - { name: global }
 - { name: jid }
+- { name: gnu-indent }
