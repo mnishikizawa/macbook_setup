@@ -54,3 +54,4 @@ homebrew_packages_packages:
 - { name: global }
 - { name: jid }
 - { name: gnu-indent }
+- { name: git-secrets }
