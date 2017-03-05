@@ -55,3 +55,4 @@ homebrew_packages_packages:
 - { name: jid }
 - { name: gnu-indent }
 - { name: git-secrets }
+- { name: git-subrepo }
