@@ -57,3 +57,4 @@ homebrew_packages_packages:
 - { name: git-secrets }
 - { name: git-subrepo }
 - { name: shellcheck }
+- { name: icdiff }
