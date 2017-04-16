@@ -56,3 +56,4 @@ homebrew_packages_packages:
 - { name: gnu-indent }
 - { name: git-secrets }
 - { name: git-subrepo }
+- { name: nasm }
