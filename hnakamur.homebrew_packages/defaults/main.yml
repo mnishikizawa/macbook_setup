@@ -58,3 +58,4 @@ homebrew_packages_packages:
 - { name: git-subrepo }
 - { name: shellcheck }
 - { name: icdiff }
+- { name: swaks }
