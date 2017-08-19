@@ -60,3 +60,4 @@ homebrew_packages_packages:
 - { name: shellcheck }
 - { name: icdiff }
 - { name: swaks }
+- { name: rbenv-default-gems }
