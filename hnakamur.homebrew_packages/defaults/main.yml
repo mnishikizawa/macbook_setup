@@ -61,3 +61,4 @@ homebrew_packages_packages:
 - { name: icdiff }
 - { name: swaks }
 - { name: rbenv-default-gems }
+- { name: coreutils }
