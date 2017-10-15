@@ -62,3 +62,4 @@ homebrew_packages_packages:
 - { name: swaks }
 - { name: rbenv-default-gems }
 - { name: coreutils }
+- { name: hadolint }
