@@ -60,6 +60,7 @@ homebrew_packages_packages:
 - { name: shellcheck }
 - { name: icdiff }
 - { name: swaks }
+- { name: dep }
 - { name: rbenv-default-gems }
 - { name: coreutils }
 - { name: hadolint }
