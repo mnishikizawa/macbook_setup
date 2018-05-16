@@ -64,3 +64,4 @@ homebrew_packages_packages:
 - { name: rbenv-default-gems }
 - { name: coreutils }
 - { name: hadolint }
+- { name: gnuplot }
