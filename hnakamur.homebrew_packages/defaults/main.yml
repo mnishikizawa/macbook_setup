@@ -65,3 +65,4 @@ homebrew_packages_packages:
 - { name: coreutils }
 - { name: hadolint }
 - { name: gnuplot }
+- { name: shellcheck }
